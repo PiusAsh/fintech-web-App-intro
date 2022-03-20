@@ -1,0 +1,185 @@
+.topBar{
+    background-color: #FEF6F2;
+    border-bottom: 1px solid #DD4F05;
+}
+
+
+.topText{
+    color: #DD4F05;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.topPar{
+    color: #696F86;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.customNav{
+    /* background-color: #DD4F05; */
+    background: #DD4F05;
+    
+}
+.otherNav{
+    border-bottom: 1px solid #DD4F05;
+}
+.bankLog{
+    background-color: #923403;
+    width: 230px;
+    height: 9vh;
+    transform: skew(-16deg);
+    /* margin-right: 200px; */
+    z-index: 1;
+}
+.navlink{
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+}
+.navlink:hover{
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+}
+.navlink1{
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    text-align: center;
+    align-items: center;
+    margin-top: 4px;
+}
+.secondNavbar{
+    height: 15vh;
+    border-bottom: 1px solid #923403;
+}
+.onlineBanking{
+    color: #424A52;
+    font-size: 25px;
+    font-weight: 700;
+}
+.accountText{
+    color: #424A52;
+    font-size: 20px;
+    font-weight: 700;
+}
+.brand{
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+.welcomeText{
+    color: #424A52;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.banK{
+    color: #DD4F05;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.texb{
+    color: #424A52;
+
+}
+
+
+
+.btn1{
+    background-color: #DD4F05;
+    color: white;
+    border: none;
+    box-shadow: 3px 3px 6px 0 rgb(0 0 0 / 30%);
+    font-size: 14px;
+    letter-spacing: .02em;
+    padding: 10px 24px 12px 26px;
+    transition: all .2s ease-in-out;
+
+}
+.btn2{
+    background-color: #DD4F05;
+    color: white;
+    border: none;
+    box-shadow: 3px 3px 6px 0 rgb(0 0 0 / 30%);
+    font-size: 14px;
+    letter-spacing: .02em;
+    padding: 10px 24px 12px 26px;
+    transition: all .2s ease-in-out;
+
+}
+
+body {
+    margin: 0;
+    font-family: acumin-pro, sans-serif;
+    overflow-x: hidden;
+}
+.submitButton{
+        background-color: #DD4F05;
+        border: none;
+        padding-top: 7px;
+        padding-left: 120px;
+        padding-bottom: 7px;
+        padding-right: 120px;
+        border-radius: 8px;
+        color: white;
+        align-items: center;
+        justify-content: center;
+        align-items: center;
+        /* left: 50px; */
+        /* position: absolute; */
+        font-weight: 600;
+    
+}
+
+input::placeholder {
+    text-align: center;
+}
+
+
+form{
+    width: 350px;
+}
+.innn{
+    border: 2px solid #DD4F05;
+    border-radius: 10px;
+
+}
+input:focus{
+    background-color: white;
+}
+
+.innn:focus{
+    border: 2px solid #696F86;
+    box-shadow: none;
+}
+
+.sub {
+    background-color: #DD4F05;
+    border: none;
+    padding-top: 7px;
+    padding-left: 140px;
+    padding-bottom: 7px;
+    padding-right: 140px;
+    border-radius: 8px;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    left: 50px;
+    
+    font-weight: 600;
+}
+
+.innn {
+    box-shadow: 0 1px 2px 0 rgba(16, 24, 40, 0.05);
+    color: #DD4F05;
+    border-radius: 8px;
+    border: solid 1px #d0d5dd;
+    padding: 10px 14px;
+    background-color: #fff;
+    height: 44px;
+    width: 400px;
+}
+
