@@ -1,30 +1,32 @@
-.topBar{
+.topBar {
     background-color: #FEF6F2;
     border-bottom: 1px solid #DD4F05;
 }
 
 
-.topText{
+.topText {
     color: #DD4F05;
     font-size: 20px;
     font-weight: 700;
 }
 
-.topPar{
+.topPar {
     color: #696F86;
     font-size: 17px;
     font-weight: 400;
 }
 
-.customNav{
+.customNav {
     /* background-color: #DD4F05; */
     background: #DD4F05;
-    
+
 }
-.otherNav{
+
+.otherNav {
     border-bottom: 1px solid #DD4F05;
 }
-.bankLog{
+
+.bankLog {
     background-color: #923403;
     width: 230px;
     height: 9vh;
@@ -32,17 +34,20 @@
     /* margin-right: 200px; */
     z-index: 1;
 }
-.navlink{
+
+.navlink {
     color: white;
     text-decoration: none;
     font-weight: 500;
 }
-.navlink:hover{
+
+.navlink:hover {
     color: white;
     text-decoration: none;
     font-weight: 500;
 }
-.navlink1{
+
+.navlink1 {
     color: white;
     text-decoration: none;
     font-weight: 500;
@@ -50,45 +55,50 @@
     align-items: center;
     margin-top: 4px;
 }
-.secondNavbar{
+
+.secondNavbar {
     height: 15vh;
     border-bottom: 1px solid #923403;
 }
-.onlineBanking{
-    color: #424A52;
-    font-size: 25px;
-    font-weight: 700;
-}
-.accountText{
-    color: #424A52;
-    font-size: 20px;
-    font-weight: 700;
-}
-.brand{
-    color: white;
-    font-weight: bold;
-    font-size: 20px;
-}
-.welcomeText{
+
+.onlineBanking {
     color: #424A52;
     font-size: 25px;
     font-weight: 700;
 }
 
-.banK{
+.accountText {
+    color: #424A52;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.brand {
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.welcomeText {
+    color: #424A52;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.banK {
     color: #DD4F05;
     font-size: 18px;
     font-weight: 700;
 }
 
-.texb{
+.texb {
     color: #424A52;
 
 }
 
 
 
-.btn1{
+.btn1 {
     background-color: #DD4F05;
     color: white;
     border: none;
@@ -99,7 +109,8 @@
     transition: all .2s ease-in-out;
 
 }
-.btn2{
+
+.btn2 {
     background-color: #DD4F05;
     color: white;
     border: none;
@@ -116,22 +127,38 @@ body {
     font-family: acumin-pro, sans-serif;
     overflow-x: hidden;
 }
-.submitButton{
-        background-color: #DD4F05;
-        border: none;
-        padding-top: 7px;
-        padding-left: 120px;
-        padding-bottom: 7px;
-        padding-right: 120px;
-        border-radius: 8px;
-        color: white;
-        align-items: center;
-        justify-content: center;
-        align-items: center;
-        /* left: 50px; */
-        /* position: absolute; */
-        font-weight: 600;
-    
+
+.submitButton {
+    background-color: #DD4F05;
+    border: none;
+    padding-top: 7px;
+    padding-left: 120px;
+    padding-bottom: 7px;
+    padding-right: 120px;
+    border-radius: 8px;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    /* left: 50px; */
+    /* position: absolute; */
+    font-weight: 600;
+
+}
+.logoutButton{
+    color: #DD4F05;
+    font-size: 17px;
+    font-weight: bold;
+    background-color: #424a5227;
+    border: none;
+    padding-top: 7px;
+    padding-left: 12px;
+    padding-bottom: 7px;
+    padding-right: 12px;
+    border-radius: 8px;
+}
+.log:hover{
+    color: #923403;
 }
 
 input::placeholder {
@@ -139,19 +166,21 @@ input::placeholder {
 }
 
 
-form{
+form {
     width: 350px;
 }
-.innn{
+
+.innn {
     border: 2px solid #DD4F05;
     border-radius: 10px;
 
 }
-input:focus{
+
+input:focus {
     background-color: white;
 }
 
-.innn:focus{
+.innn:focus {
     border: 2px solid #696F86;
     box-shadow: none;
 }
@@ -168,7 +197,7 @@ input:focus{
     align-items: center;
     justify-content: center;
     left: 50px;
-    
+
     font-weight: 600;
 }
 
@@ -183,3 +212,23 @@ input:focus{
     width: 400px;
 }
 
+.foot {
+    background-color: #21262b;
+    color: white;
+
+}
+
+.footerText {
+    text-align: center;
+    font-size: 17px;
+    text-align: center;
+}
+.footerLink{
+    color: #DD4F05;
+    font-size: 17px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.footerLink:hover{
+    color: #DD4F05;
+}
