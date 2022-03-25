@@ -265,12 +265,15 @@
 
   <script>
       let valAcct = window.localStorage.getItem('myAccountVal');
-      if (valAcct.length > 0) {
+     
+      
+      if (valAcct.length > 0 ) {
           document.getElementById("userAccount").innerHTML = valAcct;
       }
-      let userIdDisplay = window.localStorage.getItem('myAccountUser');
-      if (userIdDisplay.length > 0) {
-          document.getElementById("userId").innerHTML = userIdDisplay;
+
+       let userName = window.localStorage.getItem('valInput');
+      if (userName.length !=='' ) {
+          document.getElementById("userId").innerHTML = userName;
       }
   </script>
 
