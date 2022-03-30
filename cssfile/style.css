@@ -90,6 +90,24 @@
     font-size: 18px;
     font-weight: 700;
 }
+.accountError {
+    color: red;
+    font-size: 13px;
+    font-weight: 600;
+    width: max-content;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+.userError {
+    color: red;
+    font-size: 13px;
+    font-weight: 600;
+    width: max-content;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+
 
 .texb {
     color: #424A52;
@@ -132,9 +150,9 @@ body {
     background-color: #DD4F05;
     border: none;
     padding-top: 7px;
-    padding-left: 120px;
+    padding-left: 100px;
     padding-bottom: 7px;
-    padding-right: 120px;
+    padding-right: 100px;
     border-radius: 8px;
     color: white;
     align-items: center;
@@ -146,10 +164,10 @@ body {
 
 }
 .logoutButton{
-    color: #DD4F05;
+    color: #fff;
     font-size: 17px;
     font-weight: bold;
-    background-color: #424a5227;
+    background-color: #DD4F05;
     border: none;
     padding-top: 7px;
     padding-left: 12px;
@@ -189,9 +207,9 @@ input:focus {
     background-color: #DD4F05;
     border: none;
     padding-top: 7px;
-    padding-left: 140px;
+    padding-left: 100px;
     padding-bottom: 7px;
-    padding-right: 140px;
+    padding-right: 100px;
     border-radius: 8px;
     color: white;
     align-items: center;
@@ -206,10 +224,10 @@ input:focus {
     color: #DD4F05;
     border-radius: 8px;
     border: solid 1px #d0d5dd;
-    padding: 10px 14px;
+    padding: 5px 5px;
     background-color: #fff;
     height: 44px;
-    width: 400px;
+    width: 310px;
 }
 
 .foot {
