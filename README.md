@@ -1,9 +1,9 @@
 # Fintech Web App Intro
-<h1 align="center">Fintech refers to the integration of technology into offerings by financial services companies in order to improve their use and delivery to consumers.</h1>
+<h4 align="center">Fintech refers to the integration of technology into offerings by financial services companies in order to improve their use and delivery to consumers.</h4>
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=piusash" alt="piusash" /></a> </p>
 
-- 🔭 The Project link: [Fintech Web App Intro](https://piusash.github.io/Consulting-website/)
+- 🔭 The Project link: [Fintech Web App Intro](https://piusash.github.io/fintech-web-App-intro/)
 
 - 👨‍💻 All of my projects are available at [Github.com/PiusAsh](Github.com/PiusAsh)
 
