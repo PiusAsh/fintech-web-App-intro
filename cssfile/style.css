@@ -91,7 +91,7 @@
     font-weight: 700;
 }
 .accountError {
-    color: red;
+    color: crimson;
     font-size: 13px;
     font-weight: 600;
     width: max-content;
@@ -99,7 +99,7 @@
     margin-bottom: 2px;
 }
 .userError {
-    color: red;
+    color: crimson;
     font-size: 13px;
     font-weight: 600;
     width: max-content;
@@ -234,6 +234,8 @@ input:focus {
 
     font-weight: 600;
 }
+
+
 
 .innn {
     box-shadow: 0 1px 2px 0 rgba(16, 24, 40, 0.05);

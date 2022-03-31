@@ -5,15 +5,19 @@ function accountDetails() {
     const uError = document.querySelector('.userError');
     const uSuccess = document.querySelector('.userSuccess');
     const aSuccess = document.querySelector('.accountSuccess');
-
+    
 
     if (userAcctInput.length !== 10) {
         aError.textContent = "Account number must be up to 10 digits.";
+        
     } else {
+        aSuccess.textContent = "Valid Account";
         window.localStorage.setItem('myAccountVal', userAcctInput);
     }
 
     if (userIdInput !== '') {
+
+        uSuccess.textContent = "Valid Username.";
         window.localStorage.setItem('valInput', userIdInput);
     } else {
         uError.textContent = "Username is required";
@@ -21,5 +25,7 @@ function accountDetails() {
     if (userAcctInput.length === 10 && userIdInput !== '') {
         window.location.href = "dashboard.html";
     }
+    
 
-}
+};
+
